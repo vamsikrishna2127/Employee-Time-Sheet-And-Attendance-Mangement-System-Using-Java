@@ -1,0 +1,914 @@
+// Image Icon
+		
+		ImageIcon image = new ImageIcon("ghost.png");
+		
+		// Label
+		
+		JLabel label_1 = new JLabel();
+		
+		label_1.setIcon(image);
+		
+		label_1.setHorizontalTextPosition(JLabel.CENTER);
+		
+		// Frame
+		
+		JFrame Frame_1 = new JFrame();
+		
+		Frame_1.setTitle("Login Page");
+		
+		Frame_1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Frame_1.setResizable(false);
+		
+		Frame_1.setLayout(null);
+					
+		Frame_1.setSize(500,500);
+					
+		Frame_1.setVisible(true);
+		
+		Frame_1.add(label_1);
+		
+		
+@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		if(e.getSource()==button)
+		{
+			Main2 mywindow = new Main2();
+		}
+	}
+	
+	
+	
+	package vamsi;
+
+import javax.swing.*;
+
+public class Main2 {
+	
+	JFrame frame_1 = new JFrame();
+	
+	JLabel label_1 = new JLabel();
+	
+	Main2()
+	{
+		
+	}
+
+}
+
+
+label_1.setText("Three Golden Rules");
+		
+		label_2.setText("1. Always Wear Mask");
+		
+		label_3.setText("2. Wash Hands With Soap");
+		
+		label_4.setText("3. Maintain Social Distance");
+		
+		label_5.setText("** Be Socially Responsible **");
+		
+		label_1.setBounds(1,1,250,250);
+		
+		label_2.setBounds(1,60,250,250);
+		
+		label_3.setBounds(1,120,250,250);
+		
+		label_4.setBounds(1,180,250,250);
+		
+		label_5.setBounds(1,240,280,250);
+		
+		label_1.setFont(new Font(null,Font.ITALIC,25));
+		
+		label_2.setFont(new Font(null,Font.ITALIC,20));
+		
+		label_3.setFont(new Font(null,Font.ITALIC,20));
+		
+		label_4.setFont(new Font(null,Font.ITALIC,20));
+		
+		label_5.setFont(new Font(null,Font.ITALIC,20));
+
+		Frame_1 = new JFrame();
+		
+		Frame_1.setTitle("AD COVID - 19 SAFETY");
+		
+		Frame_1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Frame_1.setResizable(false);
+		
+		Frame_1.setLayout(null);
+					
+		Frame_1.setSize(500,500);
+					
+		Frame_1.setVisible(true);
+		
+		Frame_1.add(label_1);
+		
+		Frame_1.add(label_2);
+		
+		Frame_1.add(label_3);
+		
+		Frame_1.add(label_4);
+		
+		Frame_1.add(label_5);
+		
+		
+panel.setLayout(null);
+		
+		label_1 = new JLabel("");
+		
+		label_1.setIcon(new ImageIcon("C:\\Users\\VOOHA\\Pictures\\Saved Pictures\\Instagram\\java.png"));
+		
+		label_1.setBounds(50, 50, 200, 197);
+		
+		panel.add(label_1);
+		
+		ArrayList<String> row = new ArrayList<String>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	public static void Database()
+	{
+		String Name = "1";
+		
+		char owner = ',';
+		
+		    try
+		    {
+		    	String url = "jdbc:mysql://localhost:3306/ExcelSheet";
+				
+				String user = "root";
+						
+				String password = "8500095971@Vk";
+						
+				Class.forName("com.mysql.cj.jdbc.Driver");
+						
+				Connection conn = DriverManager.getConnection(url,user,password);
+						
+				Statement st = conn.createStatement();
+						
+				String sql = "Select * from Employee";
+				
+				ResultSet rs = st.executeQuery(sql);
+				
+                int owner_2;
+				
+				Scanner b = new Scanner(System.in);
+				
+				System.out.println("Attendance And Salary Report");
+				
+				System.out.println();
+			
+				do
+				{
+					System.out.print("Enter Employee Number :");
+					
+					System.out.println();
+					
+					owner_2 = b.nextInt();
+					
+					switch(owner_2)
+					{
+					    case 1:
+					    	
+					    	Name = "1";
+					    	
+					    	break;
+					    	
+	                    case 2:
+					    	
+					    	Name = "2";
+					    	
+					    	break;
+					    	
+	                    case 3:
+					    	
+					    	Name = "3";
+					    	
+					    	break;
+	                     
+	                    case 4:
+					    	
+					    	Name = "4";
+					    	
+					    	break;
+					    	
+	                    case 5:
+					    	
+					    	Name = "5";
+					    	
+					    	break;
+					    	
+	                    case 6:
+					    	
+					    	Name = "6";
+					    	
+					    	break;
+					    	
+	                    case 7:
+					    	
+					    	Name = "7";
+					    	
+					    	break;
+					    	
+	                    case 8:
+					    	
+					    	Name = "8";
+					    	
+					    	break;
+					    	
+	                    case 9:
+					    	
+					    	Name = "9";
+					    	
+					    	break;
+					    	
+	                    case 10:
+					    	
+					    	Name = "10";
+					    	
+					    	break;
+					    	
+	                    case 11:
+					    	
+					    	Name = "11";
+					    	
+					    	break;
+					    	
+	                   case 12:
+					    	
+					    	Name = "12";
+					    	
+					    	break;
+					    	
+	                   case 13:
+					    	
+					    	Name = "13";
+					    	
+					    	break;
+					    	
+	                   case 14:
+					    	
+					    	Name = "14";
+					    	
+					    	break;
+	                   
+	                   case 15:
+					    	
+					    	Name = "15";
+					    	
+					    	break;
+					    	
+	                   case 16:
+					    	
+					    	Name = "16";
+					    	
+					    	break;
+					    	
+	                   case 17:
+					    	
+					    	Name = "17";
+					    	
+					    	break;
+					    	
+	                   case 18:
+					    	
+					    	Name = "18";
+					    	
+					    	break;
+					    	
+	                   case 19:
+					    	
+					    	Name = "19";
+					    	
+					    	break;
+					    	
+	                   case 20:
+					    	
+					    	Name = "20";
+					    	
+					    	break;
+					    	
+					   default:
+						   
+						   System.out.println("Enter Number Between 1 to 20");
+					}
+					
+					while(rs.next())
+					{
+						String name = rs.getString(Name);
+						
+						System.out.println(name);
+					}
+					
+					System.out.print("Do U Want To See Employee Another Employee Details If Yes Press 'Y' :");
+					
+					owner = b.next().charAt(0);
+					
+					System.out.println();
+					
+				} while(owner=='Y');
+				
+				System.out.println();
+				
+				System.out.println("Database Connection Success");
+				
+				System.out.println();
+		    }
+		    
+		    catch(Exception e)
+		    {
+		    	e.printStackTrace();
+		    }
+	}
+	
+	
+	
+	public static void ProgressBar()
+	{
+		Frame_1 = new JFrame("ProgressBar");
+		
+		Panel_1 = new JPanel();
+		
+        pb = new JProgressBar(); 
+        
+        pb.setValue(0);
+        
+        pb.setStringPainted(true);
+        
+        Panel_1.add(pb);
+        
+        Frame_1.add(Panel_1);
+        
+        Frame_1.setSize(500,500);
+        
+        Frame_1.setResizable(false);
+        
+        Frame_1.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        
+        Frame_1.setVisible(true);
+        
+        int i = 0;
+		
+		try
+		{
+			while(i<=100)
+			{
+				pb.setValue(i+10);
+				
+				Thread.sleep(1000);
+				
+				i = i + 20;
+			}
+		}
+		
+		catch(Exception e)
+		{
+			
+		}
+        
+		Frame_1.dispose();
+	}  
+	
+	public static void Fill()
+	{
+		int i = 0;
+		
+		try
+		{
+			while(i<=100)
+			{
+				pb.setValue(i+10);
+				
+				Thread.sleep(1000);
+				
+				i = i + 20;
+			}
+		}
+		
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	String fname = rs.getString("firstName");
+						
+						String lname = rs.getString("lastName");
+						
+						String emailid = rs.getString("emailId");
+						
+						String qualification = rs.getString("qualification");
+						
+						String cgpa = rs.getString("cgpa");
+						
+						String M_Number = rs.getString("mobileNumber");
+						
+						for(int i=0;i<12;i++)
+						{
+							for(int j=0;j<6;)
+							{
+								data[i][j] = fname;
+								
+								j = j + 1;
+								
+								data[i][j] = lname;
+								
+								j = j + 1;
+								
+								data[i][j] = emailid;
+								
+								j = j + 1;
+								
+								data[i][j] = qualification;
+								
+								j = j + 1;
+								
+								data[i][j] = cgpa;
+								
+								j = j + 1;
+								
+								data[i][j] = M_Number;
+								
+								j = j + 1;
+								
+								break;
+							}
+							
+						}
+						
+					
+		panel = new JPanel();
+		panel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		frame.add(panel);
+		panel.setLayout(null);
+		
+		JPanel panel1= new JPanel();
+		panel1.setBounds(10, 11, 139, 239);
+		panel.add(panel1);
+		
+		lblNewLabel = new JLabel("Employees Data");
+		lblNewLabel.setFont(new Font("Stencil", Font.BOLD, 20));
+		lblNewLabel.setBounds(187, 11, 181, 40);
+		panel.add(lblNewLabel);
+		
+		lblNewLabel_1 = new JLabel("New Applications");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblNewLabel_1.setBounds(187, 73, 139, 19);
+		panel.add(lblNewLabel_1);
+		
+		btnNewButton = new JButton("New button");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				Main6 obj_5 = new Main6();
+			}
+		});
+		btnNewButton.setBounds(336, 73, 89, 23);
+		panel.add(btnNewButton);
+		
+		lblNewLabel_2 = new JLabel("Attendance");
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblNewLabel_2.setBounds(187, 114, 123, 19);
+		panel.add(lblNewLabel_2);
+		
+		btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
+		btnNewButton_1.setBounds(336, 114, 89, 23);
+		panel.add(btnNewButton_1);
+		
+		lblNewLabel_3 = new JLabel("Time Sheet");
+		lblNewLabel_3.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblNewLabel_3.setBounds(187, 159, 123, 19);
+		panel.add(lblNewLabel_3);
+		
+		btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
+		btnNewButton_2.setBounds(336, 159, 89, 23);
+		panel.add(btnNewButton_2);
+					
+	...............................................///////
+	
+	
+	
+	
+package vamsi;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;  
+
+public class Main6 extends JFrame {  
+	
+	 static JFrame f = new JFrame();
+	
+	 JTable jt=new JTable();
+	 
+	 JScrollPane sp=new JScrollPane();
+	
+	 Main6()
+	 {
+			 String[][] data= new String[12][10];
+			 
+			 String column[]={"FIRSTNAME","LASTNAME","EMAILID","QUALIFICATON","CGPA","MOBILENUMBER"};   
+			 
+			 try
+			    {
+			    	String url = "jdbc:mysql://localhost:3306/vamsi";
+					
+					String user = "root";
+							
+					String password = "8500095971@Vk";
+							
+					Class.forName("com.mysql.cj.jdbc.Driver");
+							
+					Connection conn = DriverManager.getConnection(url,user,password);
+							
+					Statement st = conn.createStatement();
+							
+					String sql = "Select * from register";
+					
+					ResultSet rs = st.executeQuery(sql);
+					
+					int i = 0;
+					
+					while(rs.next())
+					{
+						
+						String fname = rs.getString("firstName");
+						
+						String lname = rs.getString("lastName");
+						
+						String emailid = rs.getString("emailId");
+						
+						String qualification = rs.getString("qualification");
+						
+						String cgpa = rs.getString("cgpa");
+						
+						String M_Number = rs.getString("mobileNumber");
+						
+						data[i][0]=fname;
+						
+						data[i][1]=lname;
+						
+						data[i][2]=emailid;
+						
+						data[i][3]=qualification;
+						
+						data[i][4]=cgpa;
+						
+						data[i][5]=M_Number;
+						
+						i++;
+						
+					}
+					
+			    }
+			    
+			    catch(Exception e)
+			    {
+			    	e.printStackTrace();
+			    }
+			 
+			 DefaultTableModel model = new DefaultTableModel(data,column);
+			 
+			 jt=new JTable(model);  
+			 
+			 jt.setBounds(30,40,900,400);  
+			 
+			 sp=new JScrollPane(jt);  
+			 
+			 f.add(sp);
+			 
+			 f.setResizable(false);
+			 
+			 f.setSize(700,700);  
+			 
+			 f.setVisible(true); 
+			 
+			 f.setTitle("New Applications From Database");  
+	 
+		}
+}
+
+panel = new JPanel();
+		label = new JLabel();
+		label.setIcon(image);
+		panel.add(label);
+		//panel.setBounds(100, 100, 450, 300);
+		frame.add(panel);
+		panel.setLayout(null);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		package vamsi;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+class Main14 extends JFrame{
+
+		JFrame frame;
+		
+		JPanel contentPane;
+		
+		JLabel label_1;
+		
+		JLabel label_2;
+		
+		JLabel label_3;
+		
+		JLabel label_4;
+		
+		JLabel label_5;
+		
+		JPanel panel;
+		
+		ImageIcon image = new ImageIcon("C:\\Users\\VOOHA\\Pictures\\Screenshots\\Saved Pictures\\Instagram\\god3.jpg");
+		
+		Main14()
+		{
+			frame = new JFrame();
+			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			frame.setBounds(100, 100, 450, 300);
+			frame.setResizable(false);
+			frame.setVisible(true);
+			
+			//contentPane = new JPanel();
+			//contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+			//frame.add(contentPane);
+			
+			panel = new JPanel();
+			panel.setBounds(0, 0, 434, 261);
+			panel.setLayout(null);
+			//contentPane.add(panel);
+			frame.add(panel);
+			
+			JLabel label_6 = new JLabel("");
+			
+			label_6.setIcon(image);
+				
+			label_6.setVerticalTextPosition(JLabel.CENTER);
+				
+			label_6.setVerticalAlignment(0);
+				
+			label_6.setBounds(0, 0, 434, 261);
+				
+			panel.add(label_6);
+			
+			JLabel label_1 = new JLabel();
+			label_1.setText("Welcome");
+			label_1.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			label_1.setBounds(159, 11, 123, 32);
+			panel.add(label_1);
+			
+			JLabel label_2 = new JLabel();
+			label_2.setText("Employee Time Sheet And Attendance Management Portal");
+			label_2.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			label_2.setBounds(20, 55, 414, 32);
+			panel.add(label_2);
+			
+			JLabel label_3 = new JLabel("Name");
+			label_3.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			label_3.setBounds(61, 101, 69, 23);
+			panel.add(label_3);
+			
+			JLabel label_4 = new JLabel("Age");
+			label_4.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			label_4.setBounds(61, 149, 46, 23);
+			panel.add(label_4);
+			
+			JLabel label_5 = new JLabel("*Please Enter The Above Details");
+			label_5.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			label_5.setBounds(222, 236, 169, 14);
+			panel.add(label_5);
+			
+			
+	        
+			
+			//JLabel lblNewLabel = new JLabel("Welcome");
+			//lblNewLabel.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			//lblNewLabel.setBounds(159, 11, 123, 32);
+			//panel.add(lblNewLabel);
+			
+			//JLabel lblNewLabel_1 = new JLabel("Name");
+			//lblNewLabel_1.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			//lblNewLabel_1.setBounds(61, 101, 69, 23);
+			//panel.add(lblNewLabel_1);
+			
+			//JLabel lblNewLabel_2 = new JLabel("Age");
+			//lblNewLabel_2.setFont(new Font("Snap ITC", Font.PLAIN, 20));
+			//lblNewLabel_2.setBounds(61, 149, 46, 23);
+			//panel.add(lblNewLabel_2);
+			
+			JTextField textField = new JTextField();
+			textField.setBounds(159, 106, 109, 20);
+			panel.add(textField);
+			textField.setColumns(10);
+			
+			JTextField textField_1 = new JTextField();
+			textField_1.setBounds(161, 154, 107, 20);
+			panel.add(textField_1);
+			textField_1.setColumns(10);
+			
+			//JLabel lblNewLabel_3 = new JLabel("*Please Enter The Above Details");
+			//lblNewLabel_3.setBounds(222, 236, 169, 14);
+			//panel.add(lblNewLabel_3);
+			
+			String[] gender = {"male","female","others"};
+			JComboBox comboBox = new JComboBox(gender);
+			comboBox.setBounds(61, 198, 69, 22);
+			panel.add(comboBox);
+			
+			//JLabel lblNewLabel_4 = new JLabel("Employee Time Sheet And Attendance Management Portal");
+			//lblNewLabel_4.setFont(new Font("Snap ITC", Font.PLAIN, 12));
+			//lblNewLabel_4.setBounds(20, 55, 414, 32);
+			//panel.add(lblNewLabel_4);
+			
+			JCheckBox chckbxNewCheckBox = new JCheckBox("I'm Not A Robot");
+			chckbxNewCheckBox.setBounds(159, 198, 137, 23);
+			panel.add(chckbxNewCheckBox);
+			
+			JButton btnNewButton = new JButton("Continue");
+	        
+			btnNewButton.addActionListener(new ActionListener() {
+		 		
+				public void actionPerformed(ActionEvent evt) {
+							 	
+					String Name = textField.getText();
+					
+					String Age = textField_1.getText();
+					
+					try
+					{
+						if(Name.isEmpty()!=true && Age.isEmpty()!=true && chckbxNewCheckBox.isSelected()==true)
+						{
+							if(comboBox.getSelectedItem().equals("male") || comboBox.getSelectedItem().equals("female") || comboBox.getSelectedItem().equals("others"))
+							{
+								Main12 obj = new Main12();
+								
+								frame.dispose();
+							}
+						}
+						
+						else if(chckbxNewCheckBox.isSelected()==false && (comboBox.getSelectedItem().equals("male") || comboBox.getSelectedItem().equals("female") || comboBox.getSelectedItem().equals("others")))
+						{
+							JOptionPane.showMessageDialog(btnNewButton, "Please Click The CheckBox And ComboBox");
+						}
+						
+						else 
+						{
+							JOptionPane.showMessageDialog(btnNewButton, "Please Enter Name And Age");
+						}
+					}
+					
+					catch(Exception e)
+					{
+						e.printStackTrace();
+					}
+					
+					}
+									 
+				});
+			
+			btnNewButton.setBounds(323, 128, 89, 23);
+			btnNewButton.setFocusable(false);
+			panel.add(btnNewButton);
+		}
+}
+
+		package Krishna;
+
+import vamsi.Main15;
+
+public class MainV {
+	
+	public static void main(String args[])
+	{
+		Main15 obj = new Main15();
+	}
+
+}
+
+
+
+
+
+
+
+
+
+package vamsi;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JProgressBar;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class Main13 implements ActionListener {
+	
+	private static final int EXIT_ON_CLOSE = 0;
+
+	static JProgressBar pb;
+	  
+	static JFrame frame;
+	 
+	static JButton b1;
+	
+	public static void main(String args[]) {
+
+	  b1 = new JButton("LOGIN");
+	  pb = new JProgressBar(1, 100);
+	  pb.setValue(0);
+	  pb.setStringPainted(true);
+	  b1.setBounds(20, 20, 80, 25);
+	  b1.setFocusable(false);
+	  pb.setBounds(110, 20, 200, 25);
+	  pb.setVisible(false);
+	  frame = new JFrame();
+	  frame.setSize(330, 100);
+	  frame.setResizable(false);
+	  frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+	  frame.setVisible(true);
+	  frame.add(b1);
+	  frame.add(pb);
+	  
+	  b1.addActionListener(new ActionListener() {
+	  public void actionPerformed(ActionEvent e) {
+	    int i = 0;
+	    if (e.getSource() == b1) {
+	      pb.setVisible(true);
+	      try {
+	        while (i <= 100) {
+	          Thread.sleep(50);
+	          pb.paintImmediately(0, 0, 200, 25);
+	          pb.setValue(i);
+	          i++;
+	        }
+	        frame.dispose();
+	      }
+	      
+	      
+	      catch (Exception e1) {
+	        System.out.print("Caughted exception is =" + e1);
+	      }
+
+	    }
+	    	    
+	 }
+	  
+	 });
+}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

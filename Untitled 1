@@ -1,0 +1,85 @@
+package vamsi;
+
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class Main0 extends JFrame {
+	
+	ImageIcon image;
+	
+	JFrame frame;
+	
+	JLabel label;
+	
+	JLabel lblNewLabel;
+	
+	JButton btnNewButton;
+	
+	Main0()
+	{
+		// Frame
+		
+		frame = new JFrame();
+				
+		frame.setTitle("Welcome Page");
+		
+		frame.setSize(700,700);
+				
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				
+		//frame.getContentPane().setBackground(Color.yellow);
+					
+		frame.setResizable(false);
+				
+		//frame.setLayout(new BorderLayout());
+					
+		frame.setVisible(true);
+		
+		frame.setContentPane(new JLabel(new ImageIcon("C:\\Users\\VOOHA\\Pictures\\Saved Pictures\\Instagram\\2dgraphics_2.jpg")));
+		
+		frame.setLayout(new FlowLayout());
+		
+		label = new JLabel();
+	
+		frame.add(label);
+		
+		frame.setSize(650,650);
+		
+        lblNewLabel = new JLabel("WELCOME TO EMPLOYEE PORTAL");
+		
+		lblNewLabel.setFont(new Font("Tw Cen MT", Font.BOLD, 28));
+		
+		lblNewLabel.setBounds(130, 25, 420, 40);
+		
+		frame.add(lblNewLabel);
+		
+		btnNewButton = new JButton("Resistration Form");
+		
+		btnNewButton.setBounds(450, 520, 150, 23);
+		
+		btnNewButton.setFocusable(false);
+		
+		frame.add(btnNewButton);
+		
+		btnNewButton.addActionListener(new ActionListener() {
+	 		
+			public void actionPerformed(ActionEvent evt) {
+						 	
+				Main5 NewWindow_3 = new Main5();
+				
+			    NewWindow_3.dispose();
+				
+				}
+								 
+			});
+	
+	}
+	
+}
+=SUM(F5,DZ5,ED5,EH5,EL5,EP5,ET5,EX5,FB5,FF5,FJ5,FN5,FR5,FV5,FZ5,GD5,GH5,GL5,GP5,GT5,GX5,HB5,HF5,HJ5,HN5,HR5,HV5,HZ5,ID5,IH5,IL5)
+
+
+=SUM(F5+DZ5+ED5+EH5+EL5+EP5+ET5+EX5+FB5+FF5+FJ5+FN5+FR5+FV5+FZ5+GD5+GH5+GL5+GP5+GT5+GX5+HB5+HF5+HJ5+HN5+HR5+HV5+HZ5+ID5+IH5+IL5)
